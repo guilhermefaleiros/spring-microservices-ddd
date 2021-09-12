@@ -39,11 +39,11 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("B2B Dashboard")
-                .description("B2B workstation-dashboard reference for developers")
+                .title("Order Service")
+                .description("Serviço de controle de estoque criado com Arquitetura Hexagonal, Event Sourcing e Sagas")
                 .contact(new Contact("Time de Desenvolvimento", "https://www.mobicare.com.br/contato/",
-                        "desenvolvimento@mobicare.com.br"))
-                .licenseUrl("desenvolvimento@mobicare.com.br")
+                        "guilhermefaleiros2000@gmail.com"))
+                .licenseUrl("guilhermefaleiros2000@gmail.com")
                 .version("1.0.0")
                 .build();
     }
